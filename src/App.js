@@ -12,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter basename="/eda-demo">
+        <h1>YO!</h1>
         <div className="d-flex flex-column justify-content-between" style={{ minHeight: '100vh' }}>
           <Navigation />
           <Switch>
